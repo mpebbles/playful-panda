@@ -70,7 +70,7 @@ have little-to-no design overhead, have language-translation abilities, and the
 components of the device are nicely-contained. I also find cellular devices to
 be more versatile for this project because of existing apps/easy management.
 
-Please email mitchell.jeffrey.pebbles@gmail.com with any questions,
+* * Please email mitchell.jeffrey.pebbles@gmail.com with any questions,
 recommendations, ideas, concerns. This project and its ideas are open to all,
 as it is intended to make something happen, regardless of implementation
-details.
+details. * * 
