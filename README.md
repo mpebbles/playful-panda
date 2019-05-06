@@ -23,7 +23,8 @@ Using the on-device file-systems to save information, either through
 offline-tabs saved or offline-versions of apps pre-loaded with information.
 
 Type of information needed can be recommended from organizations with more
-expertise in this area. My initial thoughts are for
+expertise in this area. My initial thoughts are biblical teaching, STEM and
+English.
 
 Bible app pre-loaded.
 
@@ -56,9 +57,11 @@ people interested in helping.
 ### Someone with knowledge of how to keep us from getting sued
 ### Hardware Designer
 ### Business Contact Person
-  - find organizations to partner with and get donations
-    (monetary or old phones/components)
+- Find organizations to partner with and get donations
+  (monetary or old phones/components)
 ### UX (user experience)
+### Field Organization Contact Person
+- Continually figure out how to get this deployed effectively
 
 ## Additional Notes
 Phones would be set up to include the necessary information (in the right
@@ -70,7 +73,11 @@ have little-to-no design overhead, have language-translation abilities, and the
 components of the device are nicely-contained. I also find cellular devices to
 be more versatile for this project because of existing apps/easy management.
 
+There are is a seemingly never-ending amount of possibilities for what content
+could be delivered with this project. Basically anything that can be encoded
+in bits (in other words, anything that can be written!)
+
 * * Please email mitchell.jeffrey.pebbles@gmail.com with any questions,
 recommendations, ideas, concerns. This project and its ideas are open to all,
 as it is intended to make something happen, regardless of implementation
-details. * * 
+details. * *
