@@ -78,6 +78,6 @@ could be delivered with this project. Basically anything that can be encoded
 in bits (in other words, anything that can be written!)
 
 *Please email mitchell.jeffrey.pebbles@gmail.com with any questions,
-recommendations, ideas, concerns. This project and its ideas are open to all,
-as it is intended to make something happen, regardless of implementation
-details.*
+recommendations, ideas, or concerns. Also feel free to spread this! This
+project and its ideas are open to all, as it is intended to make something
+happen, regardless of implementation details.*
