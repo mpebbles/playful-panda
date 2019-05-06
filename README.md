@@ -77,7 +77,7 @@ There are is a seemingly never-ending amount of possibilities for what content
 could be delivered with this project. Basically anything that can be encoded
 in bits (in other words, anything that can be written!)
 
-* * Please email mitchell.jeffrey.pebbles@gmail.com with any questions,
+** Please email mitchell.jeffrey.pebbles@gmail.com with any questions,
 recommendations, ideas, concerns. This project and its ideas are open to all,
 as it is intended to make something happen, regardless of implementation
-details. * *
+details. **
