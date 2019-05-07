@@ -73,7 +73,7 @@ have little-to-no design overhead, have language-translation abilities, and the
 components of the device are nicely-contained. I also find cellular devices to
 be more versatile for this project because of existing apps/easy management.
 
-There are is a seemingly never-ending amount of possibilities for what content
+There is a seemingly never-ending amount of possibilities for what content
 could be delivered with this project. Basically anything that can be encoded
 in bits (in other words, anything that can be written!)
 
