@@ -606,10 +606,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable node_modules_reactnativerouterflux_images_back_chevron
-drawable node_modules_reactnativerouterflux_images_menu_burger
-drawable node_modules_reactnavigationstack_dist_views_assets_backicon
-drawable node_modules_reactnavigationstack_dist_views_assets_backiconmask
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -622,6 +618,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable redbox_top_border_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -897,6 +894,7 @@ string catalyst_remotedbg_message
 string catalyst_report_button
 string catalyst_settings
 string catalyst_settings_title
+string header_description
 string image_button_description
 string image_description
 string link_description
@@ -1316,4 +1314,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
-xml preferences
+xml rn_dev_preferences
