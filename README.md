@@ -43,16 +43,18 @@ As of now I plan on implementing the lessons/try-it-yourself and code
 interpreter in a React-Native app, so that this project can be cross-platform.
 I intend for lesson/quiz development to be accessible to non-programmers so that
 a wide-array of content from various disciplines can be easily developed by
-people interested in helping.
+people interested in helping.This will be done through a web app (including a vetting system.)
 ## Deployment Options
 ### All-in-One Package
 - Contains instructions and greeting written in native language,
   backup-batteries, solar charger.
 ### Central Charging Variation
 - Same as above, but with a central repository of batteries/battery-packs and
-  a large solar powered charging system.
+  a large solar powered charging system. (Thanks for the idea, Noah!)
 ## Roles
 ### Developers
+- App Developers
+- Website Developers
 ### Content Developers
 ### Someone with knowledge of how to keep us from getting sued
 ### Hardware Designer
@@ -76,6 +78,8 @@ be more versatile for this project because of existing apps/easy management.
 There is a seemingly never-ending amount of possibilities for what content
 could be delivered with this project. Basically anything that can be encoded
 in bits (in other words, anything that can be written!)
+
+As the project develops I plan on creating an email list for those interested.
 
 *Please email mitchell.jeffrey.pebbles@gmail.com with any questions,
 recommendations, ideas, or concerns. Also feel free to spread this! This

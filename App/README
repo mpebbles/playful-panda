@@ -1,0 +1,4 @@
+General idea right now is to store content in JSON files.
+Only relevant JSON files will be downloaded.
+
+https://alligator.io/react/react-native-redux/
