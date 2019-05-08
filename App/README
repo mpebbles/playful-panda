@@ -1,4 +1,10 @@
 General idea right now is to store content in JSON files.
-Only relevant JSON files will be downloaded.
+Only relevant JSON files will be downloaded to app.
+
+Have home page have list of Lessons (initial store data)
+on click -> action to retrieve lesson info from selected json file
+navigate to display page for lesson, load JSON data
+
+unit tests!
 
 https://alligator.io/react/react-native-redux/
