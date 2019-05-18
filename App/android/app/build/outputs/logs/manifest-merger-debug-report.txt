@@ -5,6 +5,7 @@ INJECTED from /home/mitchell/Desktop/playful-panda/App/android/app/src/main/Andr
 INJECTED from /home/mitchell/Desktop/playful-panda/App/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/mitchell/Desktop/playful-panda/App/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/mitchell/Desktop/playful-panda/App/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-fs] /home/mitchell/Desktop/playful-panda/App/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.react:react-native:0.59.5] /home/mitchell/.gradle/caches/transforms-1/files-1.1/react-native-0.59.5.aar/73da07ad597ff4587fe0b905b66bee06/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mitchell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/263cdea7b63505bdb22bac5edb3f4736/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/mitchell/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/87f144e3453ebbe8cabead9dab527c01/AndroidManifest.xml:17:1-22:12
@@ -129,6 +130,8 @@ uses-sdk
 INJECTED from /home/mitchell/Desktop/playful-panda/App/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/mitchell/Desktop/playful-panda/App/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/mitchell/Desktop/playful-panda/App/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-fs] /home/mitchell/Desktop/playful-panda/App/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /home/mitchell/Desktop/playful-panda/App/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.5] /home/mitchell/.gradle/caches/transforms-1/files-1.1/react-native-0.59.5.aar/73da07ad597ff4587fe0b905b66bee06/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.5] /home/mitchell/.gradle/caches/transforms-1/files-1.1/react-native-0.59.5.aar/73da07ad597ff4587fe0b905b66bee06/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mitchell/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/263cdea7b63505bdb22bac5edb3f4736/AndroidManifest.xml:20:5-44
@@ -209,3 +212,7 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /home/mitchell/Desktop/playful-panda/App/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from /home/mitchell/Desktop/playful-panda/App/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:react-native-fs] /home/mitchell/Desktop/playful-panda/App/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:react-native-fs] /home/mitchell/Desktop/playful-panda/App/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-78

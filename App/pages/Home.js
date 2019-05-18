@@ -11,6 +11,7 @@ import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { addLesson } from "../LessonActions";
+import * as RNFS from "react-native-fs";
 
 const goToPlaceHolder = () => {
   Actions.placeHolder();
@@ -18,9 +19,36 @@ const goToPlaceHolder = () => {
 
 //const Home = () => {
 class Home extends React.Component {
+  componentWillMount() {
+    const path = RNFS.DocumentDirectoryPath;
+    RNFS.readDir(path)
+      .then(res => {
+        const lessonFiles = res.filter(x => x.name.startsWith("LESSON_"));
+        alert(lessonFiles.length);
+      })
+      .catch(err => {
+        alert(err.message);
+      });
+  }
+
   render() {
     return (
       <View style={styles.container}>
+        <Button
+          title={`Create file`}
+          onPress={() => {
+            const path = RNFS.DocumentDirectoryPath + "/LESSON_1";
+
+            // write the file
+            RNFS.writeFile(path, "Lorem ipsum dolor sit amet", "utf8")
+              .then(success => {
+                alert("FILE WRITTEN!");
+              })
+              .catch(err => {
+                alert(err.message);
+              });
+          }}
+        />
         <Button title={`Add`} onPress={() => this.props.addLesson("test")} />
         <FlatList
           showsVerticalScrollIndicator={false}

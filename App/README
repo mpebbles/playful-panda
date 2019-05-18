@@ -1,3 +1,14 @@
+PLEASE NOTE: The infrastructure for the app is still
+being developed, so the existing code is nonsensical.
+
+TODO: way of putting files on phone
+TODO: upon loading app, get list of files starting
+      with LESSON_ to display, when loaded use
+      action and send to reducer
+TODO: Upon clicking a file name, navigate to display
+      page and load data using actions/reducer
+TODO: cleanup/format
+
 General idea right now is to store content in JSON files.
 Only relevant JSON files will be downloaded to app.
 
@@ -9,6 +20,6 @@ unit tests!
 
 https://alligator.io/react/react-native-redux/
 
-Won't be adding, just opening. Redux code there as
-placeholder for now -- will be used for opening JSON
-files.
+
+NOTE: In the future I would like to use external
+storage with react-native-fs for android

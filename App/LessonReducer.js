@@ -1,8 +1,9 @@
 import { combineReducers } from "redux";
-import { ADD_LESSON } from './types';
+import { ADD_LESSON } from "./types";
+import * as RNFS from "react-native-fs";
 
 const INITIAL_STATE = {
-  jsonFiles: ["1", "2", "3", "4"]
+  jsonFiles: []
 };
 
 const lessonReducer = (state = INITIAL_STATE, action) => {
