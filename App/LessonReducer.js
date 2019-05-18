@@ -1,14 +1,23 @@
 import { combineReducers } from "redux";
+import { ADD_LESSON } from './types';
 
 const INITIAL_STATE = {
-  jsonFiles: ['Lesson 1', 'Lesson 2', 'Lesson 3', 'Lesson 4', 'Lesson 5',
-                'Lesson 6', 'Lesson 7', 'Lesson 8', 'Lesson 9', 'Lesson 10',
-                 'Lesson 11', 'Lesson 12', 'Lesson 13', 'Lesson 14',
-                 'Lesson 15', 'Lesson 16'],
+  jsonFiles: ["1", "2", "3", "4"]
 };
 
 const lessonReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
+    case ADD_LESSON:
+      const { jsonFiles } = state;
+
+      // Pull friend out of friends.possible
+      // Note that action.payload === friendIndex
+      //const addedFriend = possible.splice(action.payload, 1);
+      jsonFiles.push(action.payload);
+
+      // Finally, update our redux state
+      const newState = { jsonFiles };
+      return newState;
     default:
       return state;
   }

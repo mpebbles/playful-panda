@@ -8,3 +8,7 @@ navigate to display page for lesson, load JSON data
 unit tests!
 
 https://alligator.io/react/react-native-redux/
+
+Won't be adding, just opening. Redux code there as
+placeholder for now -- will be used for opening JSON
+files.

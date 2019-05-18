@@ -9,6 +9,8 @@ import {
 } from "react-native";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import { addLesson } from "../LessonActions";
 
 const goToPlaceHolder = () => {
   Actions.placeHolder();
@@ -19,14 +21,17 @@ class Home extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <Button title={`Add`} onPress={() => this.props.addLesson("test")} />
         <FlatList
           showsVerticalScrollIndicator={false}
           data={this.props.lessons.jsonFiles}
+          extraData={this.props}
           renderItem={({ item }) => (
             <Text style={styles.item} key={item}>
               {item}
             </Text>
           )}
+          keyExtractor={(item, index) => index.toString()}
         />
       </View>
     );
@@ -52,8 +57,17 @@ const mapStateToProps = state => {
   const { lessons } = state;
   return { lessons };
 };
-
-export default connect(mapStateToProps)(Home);
+const mapDispatchToProps = dispatch =>
+  bindActionCreators(
+    {
+      addLesson
+    },
+    dispatch
+  );
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Home);
 
 //<TouchableOpacity style={{ margin: 128 }} onPress={goToPlaceHolder}>
 //  <Text>This is HOME!</Text>
@@ -67,3 +81,12 @@ export default connect(mapStateToProps)(Home);
 //  onPress={() => {} } //this.props.screenProps.addFriend(index)}
 ///>
 //))}
+//<FlatList
+//  showsVerticalScrollIndicator={false}
+//  data={this.props.lessons.jsonFiles}
+//  renderItem={({ item }) => (
+//    <Text style={styles.item} key={item}>
+//      {item}
+//    </Text>
+//  )}
+///>
