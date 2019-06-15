@@ -17,6 +17,10 @@ const goToPlaceHolder = () => {
   Actions.placeHolder();
 };
 
+const goToDownloads = () => {
+  Actions.downloads();
+};
+
 //const Home = () => {
 class Home extends React.Component {
   componentWillMount() {
@@ -50,12 +54,13 @@ class Home extends React.Component {
           }}
         />
         <Button title={`Add`} onPress={() => this.props.addLesson("test")} />
+        <Button title={`GOTO Downloads`} onPress={goToDownloads} />
         <FlatList
           showsVerticalScrollIndicator={false}
           data={this.props.lessons.jsonFiles}
           extraData={this.props}
           renderItem={({ item }) => (
-            <Text style={styles.item} key={item}>
+            <Text style={styles.item} key={item} onPress={goToPlaceHolder}>
               {item}
             </Text>
           )}
@@ -76,7 +81,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 10,
     fontSize: 18,
-    height: 44,
+    height: 48,
     textAlign: "center"
   }
 });
